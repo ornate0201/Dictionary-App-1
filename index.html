@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary-App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>Dictionary For Everyone</header>
+        <div class="search">
+            <input type="text" placeholder="Enter your word!" required>
+            <i class="fas fa-search"></i>
+            <span class="material-icons">close</span>
+        </div>
+        <p class="text-info">Type any word and press Enter to get its meaning, example, synonyms, etc.</p>
+        
+        <!-- Recent Search List -->
+        <div class="recent-searches">
+            <ul id="recentList"></ul>
+            <button class="clear-recent">Clear Recent Searches</button>
+        </div>
+
+        <ul>
+            <li class="word">
+                <div class="detalis">
+                    <p>_</p>
+                    <span>_</span>
+                </div>
+                <i class="fas fa-volume-up"></i>
+            </li>
+            <div class="content">
+                <li class="meaning">
+                    <div class="detalis">
+                        <p>Meaning</p>
+                        <span>feeling or showing pleasure or contentment</span>
+                    </div>
+                </li>
+                <li class="example">
+                    <div class="detalis">
+                        <p>Example</p>
+                        <span>Niloy came in looking happy and excited</span>
+                    </div>
+                </li>
+                <li class="synonyms">
+                    <div class="detalis">
+                        <p>Synonyms</p>
+                        <div class="list"></div>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </div>
+    
+   
+    <footer>
+        <p>21-22 &copy; Code-warrior ISTT.All rights reserved</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/isttdhaka" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.facebook.com/groups/858711504626775" target="_blank" title="Messenger"><i class="fab fa-facebook-messenger"></i></a>
+            <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
